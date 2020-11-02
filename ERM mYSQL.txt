@@ -1,0 +1,5 @@
+This is the code you need to enter in the mysql
+create database erms;
+use erms;
+create table login (username varchar(20),password int);
+create table employee(Name varchar(20),phone int,gender varchar(20),em_contact int,email_id varchar(50),address varchar(50),experience int);
